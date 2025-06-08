@@ -24,200 +24,195 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │🛠 *Version:* 3.0.0 Bᴇᴛᴀ
 └───────────────
 
-*🐣MENU LIST🐣*
+╔════════🌟 *NOVA* 𝗕𝗢𝗧 🌟════════╗
 
-➤ 🕌 *Quranmenu*
-➤ 🕌 .surah1
-➤ 🕌 .surah2
-➤ 🕌 .surah3
-➤ 🕌 .surah4
-➤ 🕌 .surah5
-➤ 🕌 .surah6
-➤ 🕌 .surah7
-➤ 🕌 .surah8
-➤ 🕌 .surah9
-➤ 🕌 .surah10
-_________________________
-➤ 🕋 *Prayertime*
-➤ 🕋 .Prayertime
-_________________________
-➤ 🤖 *Aimenu*
-➤ 🤖 .ai
-➤ 🤖 .chatgpt2
-➤ 🤖 .openai
-➤ 🤖 .deepseek
-➤ 🤖 .fluxai
-➤ 🤖 .imagine2
-➤ 🤖 .imagine3
-➤ 🤖 .wallpaper
-➤ 🤖 .image
-_________________________
-➤ 🖼️ *AnimeIMGE*
-➤ 🖼️ .anime
-➤ 🖼️ .anime1
-➤ 🖼️ .anime2
-➤ 🖼️ .anime3
-➤ 🖼️ .anime4
-➤ 🖼️ .anime5
-➤ 🖼️ .garl
-➤ 🖼️ .waifu
-➤ 🖼️ .neko
-➤ 🖼️ .maid
-➤ 🖼️ .awoo
-➤ 🖼️ .animegirl
-➤ 🖼️ .animegirl1
-➤ 🖼️ .animegirl2
-➤ 🖼️ .animegirl3
-➤ 🖼️ .animegirl4
-➤ 🖼️ .animegirl5
-➤ 🖼️ .dog
-_________________________
-➤ 💬 Reactions
-➤ 😍 .cry
-➤ 😍 .cuddle
-➤ 😍 .bully
-➤ 😍 .hug
-➤ 😍 .awoo
-➤ 😍 .lick
-➤ 😍 .pat
-➤ 😍 .smug
-➤ 😍 .bonk
-➤ 😍 .yeet
-➤ 😍 .blush
-➤ 😍 .handhold
-➤ 😍 .highfive
-➤ 😍 .nom
-➤ 😍 .wave
-➤ 😍 .smile
-➤ 😍 .wink
-➤ 😍 .happy
-➤ 😍 .glomp
-➤ 😍 .bite
-➤ 😍 .poke
-➤ 😍 .cringe
-➤ 😍 .dance
-➤ 😍 .kill
-➤ 😍 .slap
-➤ 😍 .kiss
-_________________________
-➤ 🔄 *Convertmenu*
-➤ 🔄 .sticker
-➤ 🔄 .topdf
-➤ 🔄 .gif
-➤ 🔄 .attp
-➤ 🔄 .tts2
-➤ 🔄 .tts3
-➤ 🔄 .tts
-➤ 🔄 .trt
-➤ 🔄 .fancy
-➤ 🔄 .gitclone
-➤ 🔄 .url
-➤ 🔄 .logo
-➤ 🔄 .fetch
-➤ 🔄 .emoji
-➤ 🔄 .enhance
-➤ 🔄 .remini
-➤ 🔄 .removebg
-➤ 🔄 .getimage
-_________________________
-➤ 🎉 *Funmenu*
-➤ 🎉 .emix 😀,🤣
-➤ 🎉 .joke
-➤ 🎉 .hack
-_________________________
-➤ ⬇️ *Dlmenu*
-➤ 🎬 .capcut
-➤ 🎵 .ringtone
-➤ 📲 .tiktok2
-➤ 🔍 .tiktoksearch
-➤ 📸 .Instagram
-➤ 🌀 .fb2
-➤ 👻 .snapchat
-➤ 🐦 .twitter
-➤ 📂 .mediafire
-➤ 📂 .gdrive  
-➤ 📥 .apk
-➤ ⬇️ .gdrive
-➤ 💡 .likee
-➤ 📌 .pinterest
-➤ 🔎 .spotifysearch
-➤ 🔎 .yts
-➤ 🎥 .mp4
-➤ 🎼 .mp3
-➤ 📹 .video
-➤ 🎥 .video5
-➤ 🎧 .play
-➤ 🎶 .play3
-➤ 📼 .play5
-➤ 🖼️ .img
-_________________________
-➤ 👥 *Group_Command*
-➤ 👥 .tagall
-➤ 👥 .kickall
-➤ 👥 .kickall2
-➤ 👥 .kick
-➤ 👥 .removeadmins
-➤ 👥 .leave
-➤ 👥 .join
-➤ 👥 .invite
-➤ 👥 .resetglink
-➤ 👥 .jid
-➤ 👥 .forward
-➤ 👥 .removecountry 93/91/654/1
-➤ 👥 .kickco 91/93/654/664
-_________________________
-➤ 🧩 *Othermenu*
-➤ 🧩 .ytsearch
-➤ 🧩 .githubstalk
-➤ 🧩 .tiktokstalk
-➤ 🧩 .wikipedia
-➤ 🧩 .movie
-➤ 🧩 .swb
-➤ 🧩 .weather
-_________________________
-➤ 👑 *Ownermenu*
-➤ 👑 .alive || Public Use
-➤ 👑 .version || Public Use
-➤ 👑 .antidelete || Bot User
-➤ 👑 .fullpp || Bot User
-➤ 👑 .vv6 || Bot User
-➤ 👑 .vv || Bot User
-➤ 👑 .save || Bot User
-➤ 👑 .send || Public Use
-➤ 👑 .sendme || Public Use
-➤ 👑 .sand || Public Use
-➤ 👑 .chatbot on/off || Public
-➤ 👑 .env || Public Use
-➤ 👑 .allvar || Public Use
-➤ 👑 .repo || Public Use
-➤ 👑 .sc || Public Use
-➤ 👑 .script || Public Use
-➤ 👑 .update || Bot User
-➤ 👑 .menu || Public Use
-➤ 👑 .owner || Public Use 
-➤ 👑 .broadcast ×
-➤ 👑 .siminfo || Bot User 
-➤ 👑 .sim || Bot User
-➤ 👑 .sim2 || Bot User 
-➤ 👑 .ping || Public Use
-➤ 👑 .speed || Public Use
-➤ 👑 .fetch || Public Use
-➤ 👑 .report || Public Use
-➤ 👑 Anticall || Bot User 
-➤ 👑 Antilink || Bot User
-➤ 👑 Reacts || Bot User
-➤ 👑 Heartreacts || Bot User
-➤ 👑 Status View || Bot User 
-➤ 👑 Status Reacts || Bot User 
-➤ 👑 Status Reply || Bot User
-➤ 👑 Status Saver || Bot User
-➤ 👑 Status Sendr || Public Use
-➤ 👑 Antiviewones || Bot User
-➤ 👑 Antidelete || Bot User
-➤ 👑 Group We'll Come Bye || Bot User 
-➤ 👑 Group Promote Demote || Bot User
+┃
+┃ 📥 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐌𝐞𝐧𝐮
+┃ ╰━━━━━━━━━━━━━━━⪼
+┃  🎬  .capcut
+┃  🎵  .ringtone
+┃  📲  .tiktok2
+┃  🔍  .tiktoksearch
+┃  📸  .Instagram
+┃  🌀  .fb2
+┃  👻  .snapchat
+┃  🐦  .twitter
+┃  📂  .mediafire
+┃  📥  .apk
+┃  📂  .gdrive
+┃  ⬇️  .gdrive
+┃  💡  .likee
+┃  📌  .pinterest
+┃  🔎  .spotifysearch
+┃  🔎  .yts
+┃  🎥  .mp4
+┃  🎼  .mp3
+┃  📹  .video
+┃  🎥  .video5
+┃  🎧  .play
+┃  🎶  .play3
+┃  📼  .play5
+┃  🖼️  .img
+┃
+┃ 🤖 𝐀𝐈 𝐌𝐞𝐧𝐮
+┃ ╰━━━━━━━━━━━━━━━⪼
+┃  🤖  .ai
+┃  🤖  .chatgpt2
+┃  🤖  .openai
+┃  🤖  .deepseek
+┃  🤖  .fluxai
+┃  🤖  .imagine2
+┃  🤖  .imagine3
+┃  🤖  .wallpaper
+┃  🤖  .image
+┃
+┃ 🔄 𝐂𝐨𝐧𝐯𝐞𝐫𝐭 𝐌𝐞𝐧𝐮
+┃ ╰━━━━━━━━━━━━━━━⪼
+┃  🔄  .sticker
+┃  🔄  .topdf
+┃  🔄  .gif
+┃  🔄  .attp
+┃  🔄  .tts
+┃  🔄  .tts2
+┃  🔄  .tts3
+┃  🔄  .trt
+┃  🔄  .fancy
+┃  🔄  .gitclone
+┃  🔄  .url
+┃  🔄  .logo
+┃  🔄  .fetch
+┃  🔄  .emoji
+┃  🔄  .enhance
+┃  🔄  .remini
+┃  🔄  .removebg
+┃  🔄  .getimage
+┃
+┃ 🖼️ 𝐀𝐧𝐢𝐦𝐞 𝐈𝐦𝐚𝐠𝐞𝐬
+┃ ╰━━━━━━━━━━━━━━━⪼
+┃  🖼️  .anime
+┃  🖼️  .anime1
+┃  🖼️  .anime2
+┃  🖼️  .anime3
+┃  🖼️  .anime4
+┃  🖼️  .anime5
+┃  🖼️  .garl
+┃  🖼️  .waifu
+┃  🖼️  .neko
+┃  🖼️  .maid
+┃  🖼️  .awoo
+┃  🖼️  .animegirl
+┃  🖼️  .animegirl1
+┃  🖼️  .animegirl2
+┃  🖼️  .animegirl3
+┃  🖼️  .animegirl4
+┃  🖼️  .animegirl5
+┃  🖼️  .dog
+┃
+┃ 💬 𝐑𝐞𝐚𝐜𝐭𝐢𝐨𝐧𝐬
+┃ ╰━━━━━━━━━━━━━━━⪼
+┃  😍  .cry
+┃  😍  .cuddle
+┃  😍  .bully
+┃  😍  .hug
+┃  😍  .awoo
+┃  😍  .lick
+┃  😍  .pat
+┃  😍  .smug
+┃  😍  .bonk
+┃  😍  .yeet
+┃  😍  .blush
+┃  😍  .handhold
+┃  😍  .highfive
+┃  😍  .nom
+┃  😍  .wave
+┃  😍  .smile
+┃  😍  .wink
+┃  😍  .happy
+┃  😍  .glomp
+┃  😍  .bite
+┃  😍  .poke
+┃  😍  .cringe
+┃  😍  .dance
+┃  😍  .kill
+┃  😍  .slap
+┃  😍  .kiss
+┃
+┃ 🎉 𝐅𝐮𝐧 𝐌𝐞𝐧𝐮
+┃ ╰━━━━━━━━━━━━━━━⪼
+┃  🎉  .emix
+┃  🎉  .joke
+┃  🎉  .hack
+┃
+┃ 👥 𝐆𝐫𝐨𝐮𝐩 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬
+┃ ╰━━━━━━━━━━━━━━━⪼
+┃  👥  .tagall
+┃  👥  .kickall
+┃  👥  .kickall2
+┃  👥  .kick
+┃  👥  .removeadmins
+┃  👥  .leave
+┃  👥  .join
+┃  👥  .invite
+┃  👥  .resetglink
+┃  👥  .jid
+┃  👥  .forward
+┃  👥  .removecountry
+┃  👥  .kickco
+┃
+┃ 🧩 𝐎𝐭𝐡𝐞𝐫 𝐌𝐞𝐧𝐮
+┃ ╰━━━━━━━━━━━━━━━⪼
+┃  🧩  .ytsearch
+┃  🧩  .githubstalk
+┃  🧩  .tiktokstalk
+┃  🧩  .wikipedia
+┃  🧩  .movie
+┃  🧩  .swb
+┃  🧩  .weather
+┃
+┃ 👑 𝐎𝐰𝐧𝐞𝐫 𝐌𝐞𝐧𝐮
+┃ ╰━━━━━━━━━━━━━━━⪼
+┃  👑  .alive
+┃  👑  .version
+┃  👑  .antidelete
+┃  👑  .fullpp
+┃  👑  .vv6
+┃  👑  .vv
+┃  👑  .save
+┃  👑  .send
+┃  👑  .sendme
+┃  👑  .sand
+┃  👑  .chatbot on/off
+┃  👑  .env
+┃  👑  .allvar
+┃  👑  .repo
+┃  👑  .sc
+┃  👑  .script
+┃  👑  .update
+┃  👑  .menu
+┃  👑  .owner
+┃  👑  .broadcast
+┃  👑  .siminfo
+┃  👑  .sim
+┃  👑  .sim2
+┃  👑  .ping
+┃  👑  .speed
+┃  👑  .fetch
+┃  👑  .report
+┃  👑  Anticall
+┃  👑  Antilink
+┃  👑  Reacts
+┃  👑  Heartreacts
+┃  👑  Status View
+┃  👑  Status Reacts
+┃  👑  Status Reply
+┃  👑  Status Saver
+┃  👑  Status Sendr
+┃  👑  Antiviewones
+┃  👑  Group We'll Come Bye
+┃  👑  Group Promote Demote
 
-_________________________
+╚═════════*_BY IMALSHA_*═════════╝
+
 
 *${config.DESCRIPTION}*`;
 
