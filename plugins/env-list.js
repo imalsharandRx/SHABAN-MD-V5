@@ -19,7 +19,7 @@ cmd({
 async (conn, mek, m, { from, quoted, reply }) => {
     try {
         // Royal & Stylish Settings Message
-        let envSettings = `*⚙️SHABAN-MD SETTINGS⚙️*
+        let envSettings = `*⚙️NOVA-XMD SETTINGS⚙️*
 
 ┣ 🔹 *status_view:* ${isEnabled(config.AUTO_STATUS_SEEN) ? "On" : "Off"}  
 ┣ 🔹 *status_reply:* ${isEnabled(config.AUTO_STATUS_REPLY) ? "On" : "Off"}  
@@ -47,7 +47,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
         await conn.sendMessage(
             from,
             {
-                image: { url: 'https://files.catbox.moe/yoqs4t.jpg' }, // Stylish Image
+                image: { url: 'https://i.ibb.co/HLp58Lwz/1.png' }, // Stylish Image
                 caption: envSettings,
                 contextInfo: {
                     mentionedJid: [m.sender],
