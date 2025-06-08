@@ -1,7 +1,7 @@
 {
-  "name": "SHABAN-MD",
-  "description": "Javascript WhatsApp bot made by 𝐌𝐑 𝐒𝐇𝐀𝐁𝐀𝐍",
-  "logo": "https://i.ibb.co/mCfPfmJL/shaban-md.jpg",
+  "name": "NOVA-XMD",
+  "description": "Javascript WhatsApp bot made by IMALSHA RANDIP",
+  "logo": "https://i.ibb.co/rKNZcjZk/gpt2.png",
   "keywords": ["SHABAN-MD"],
   "success_url": "/",
 
@@ -22,7 +22,7 @@
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": true,
-      "value": "https://i.ibb.co/j9G5tmNM/shaban-md.jpg"
+      "value": "https://i.ibb.co/Lz0GrS5X/Chat-GPT-Image-Jun-8-2025-08-51-21-AM.png"
     }, 
       
     "PREFIX": {
@@ -33,7 +33,7 @@
     
     "MODE": {
       "description": "select your bot work type public-private-inbox-group.",
-      "required": false,
+      "required": true,
       "value": "public"
       
     },
@@ -98,14 +98,14 @@
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "SHABAN-MD V5"
+      "value": "NOVA-XMD"
 
      },
      
     "DELETE_LINK": {
       "description": "Make it true if you want bot auto remove group link.",
       "required": true,
-      "value": "false"
+      "value": "true"
     }, 
     
     "ANTI_LINK": {
@@ -136,7 +136,7 @@
     "ANTI_BAD_WORD": {
       "description": "Make it true if you want bot auto delete bad words.",
       "required": true,
-      "value": "false"
+      "value": "true"
     }, 
     
     "AUTO_RECORDING": {
@@ -160,7 +160,7 @@
     "CUSTOM_REACT": {
       "description": "Make it true if you want custom reactions.",
       "required": true,
-      "value": "false"
+      "value": "true"
       
     }, 
     
@@ -173,13 +173,13 @@
     "ANTI_DEL_PATH": {
       "description": "change it to -same- if you want to resend deleted message in same chat othwise inbox",
       "required": true,
-      "value": "inbox"
+      "value": "same"
     },
 
     "ANTI_DELETE": {
       "description": "set true for show deleted messages.",
       "required": true,
-      "value": "false"  
+      "value": "true"  
     },
 
     "READ_MESSAGE": {
