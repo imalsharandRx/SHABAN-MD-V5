@@ -30,7 +30,7 @@ STICKER_NAME: process.env.STICKER_NAME || "SHABAN-MD",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
 // make this true for custum emoji react    
-CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍,❣,💓,💕,💗,💞",
+CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,🤍,❣,💓,💕,💗,💞,😍,🥰,💥,✨,☠,💀,🤖",
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links witho remove member 
@@ -48,7 +48,7 @@ READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
 AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
-ANTI_BAD: process.env.ANTI_BAD || "false",
+ANTI_BAD: process.env.ANTI_BAD || "true",
 // false or true for anti bad words  
 MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
@@ -58,7 +58,7 @@ AUTO_VOICE: process.env.AUTO_VOICE || "true",
 // make true for send automatic voices
 AUTO_STICKER: process.env.AUTO_STICKER || "false",
 // make true for automatic stickers 
-AUTO_REPLY: process.env.AUTO_REPLY || "false",
+AUTO_REPLY: process.env.AUTO_REPLY || "true",
 // make true or false automatic text reply 
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
